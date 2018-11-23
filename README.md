@@ -1,6 +1,6 @@
 # graphiql-client
 
-# Getting Started
+## Getting Started
 
 Launch the demo on a free Heroku instance. Note that you have to set the `GRAPHQL_API_URL` environment to point to the your GraphQL API url.
 
