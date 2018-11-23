@@ -29,6 +29,7 @@
   "scripts": {
     "start": "NODE_ENV=develop webpack-dev-server --watch --mode development",
     "build": "webpack -p --progress",
-    "watch": "webpack -d --watch"
+    "watch": "webpack -d --watch",
+    "heroku-postbuild": "npm run build"
   }
 }
