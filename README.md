@@ -1,7 +1,12 @@
-# graphiql-client
+# graphiql-web
+
+Web application for GraphiQL with any GraphQL backends and Bearer Authentication
 
 ## Getting Started
 
-Launch the demo on a free Heroku instance. Note that you have to set the `GRAPHQL_API_URL` environment to point to the your GraphQL API url.
+View the demo for Github GraphQL API online [https://graphiql-web.herokuapp.com/](https://graphiql-web.herokuapp.com/).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+Or launch your own demo by [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+ on a free Heroku instance. Note that you have to set the `GRAPHQL_URL` environment variable to point to your GraphQL backend url.
+
+Or launch it via Docker by ```docker run jxltom:graphiql-web```
